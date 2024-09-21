@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "sans-pro";
+    src: url("SourceSansPro-Regular.ttf");
+}
+
+@font-face {
+    font-family: "sans-pro";
+    src: url("SourceSansPro-Bold.ttf");
+    font-weight: bold;
+}
+
+body {
+    width: 375px;
+    margin: 0 auto;
+    font-family: "sans-pro";
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px
+}
+
+section {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.name-and-location {
+    display: flex;
+    align-items: center;
+}
+
+.user-full-name {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 0;
+}
+
+.location-text {
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 2px;
+}
+
+.likes-and-comments {
+    display: flex;
+    align-items: center;
+}
+
+.likes-and-comments img{
+    margin: 10px;
+    cursor: pointer;
+    width: 24px
+}
+
+.likes-and-comments img:first-child {
+    margin-left: 2px;
+}
+
+.likes-and-comments img:hover{
+    opacity: 0.5;
+}
+
+#like-btn {
+    margin-left: 1px;
+}
+
+.like-img {
+    width: 24px;
+    margin-left: 100px;
+}
+
+.likes-and-comments .like-img:focus, 
+.likes-and-comments .like-img:active {
+    opacity: 2;
+}
+
+.likes-count {
+    margin-top: 3px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 11px;
+}
+
+.username-caption {
+    margin-top: 4px;
+    font-size: 13px;
+    line-height: 16px;
+    display: inline;
+    margin-left: 5px;
+}
+
+.username {
+    font-weight: 700;
+    font-size: 13px;
+}
